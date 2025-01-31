@@ -66,7 +66,7 @@ function preload() {
     shootImage: loadImage("../assets/images/Frame2.png"),
     hearts: loadImage("../assets/images/heart.png"),
     laser: loadImage("../assets/images/NormalLaser.gif"),
-    superLaserBeam: loadImage("../assets/images/uperLaserBeam.gif"),
+    superLaserBeam: loadImage("../assets/images/ssuperLaserBeam.gif"),
     powerupImage: loadImage("../assets/images/powerupsPrtSc2.png"),
     asteroidtypeImage: loadImage("../assets/images/asteroidtypesPrtSc2.png"),
 

@@ -38,7 +38,7 @@ class InGameMenuPopup implements IScene {
             music.menuMusic.setVolume(1);
             music.menuMusic.loop();
         }
-      }
+    }
 
 
     public update(): void {
@@ -108,16 +108,16 @@ class InGameMenuPopup implements IScene {
 
         // this.closeButton.draw();
     }
-    
+
     private drawTextInsideBox(): void {
-      push();
-      fill("black");
-      textStyle(BOLD);
-      textAlign("center");
-      textFont("Pixelify Sans");
-      textSize(width * 0.05);
-      text("MENU", width * 0.5, height * 0.3);
-      pop();
+        push();
+        fill("black");
+        textStyle(BOLD);
+        textAlign("center");
+        textFont("Pixelify Sans");
+        textSize(width * 0.05);
+        text("MENU", width * 0.5, height * 0.3);
+        pop();
     }
 
     private shiftMusicOnOff(): void {
@@ -131,5 +131,5 @@ class InGameMenuPopup implements IScene {
         this.isMusicPlaying = !this.isMusicPlaying;
 
     }
-  }
+}
 
