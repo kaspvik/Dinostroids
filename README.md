@@ -1,46 +1,50 @@
-# Slutprojektet
+🦖 Dinostroids
+👾 Spela nu!
+Testa dina reflexer i detta fartfyllda rymdäventyr.
 
-Välkommen till den förinställda kodbasen för slutprojektet.
-Se filen [Sketch](./src/sketch.ts) och [Game](./src/game.ts) filerna för hur ni bör börja skriva er kod!
+🚀 Vad är Dinostroids?
+Dinostroids är ett intensivt arkadspel där du axlar rollen som en laserförsedd dinosaurie på Mars. Ditt uppdrag? Skydda planeten från en storm av asteroider!
 
-Kom ihåg att använda git!
+Det sägs att dinosaurierna förutsåg undergången långt innan människan ens kunde drömma om rymdfärder. Med hjälp av avancerad teknologi flydde de till Mars – där de levde vidare som härskare. Men hotet har återvänt, och nu är det du som måste ta striden.
 
-Projektet använder sig av [Typescript](https://www.typescriptlang.org/) och [p5.js](https://p5js.org/). Det är varmt rekommenderat att ni läser på om dessa två teknologier innan ni börjar skriva kod.
+Beväpna dig. Kämpa. Rädda Mars!
 
-OBS: Undvik [DOM funktionerna i p5.js](https://p5js.org/reference/#group-DOM) eftersom de **inte** är canvasspecifika och kommer inte fungera som ni förväntar er.
+🎮 Så spelar du
+Skjut ner inkommande asteroider innan de träffar dig.
 
-## Utveckling
+Hämta power-ups för att förbättra dina chanser.
 
-### Installation
+Ju längre du överlever, desto tuffare blir det!
 
-Först behöver ni köra kommandot `npm install` för att installera nödvändiga moduler (p5, typescript, etc).
+Kan du slå high score?
 
-### Starta projektet
+🕹️ Kontroller
+Piltangenter: Flytta vänster/höger
 
-Kör kommandot `npm run dev` för att starta projektet och se det live i din webbläsare!
+Mellanslag: Avfyra laser
 
-### Debugger
+🌌 Asteroidtyper
+Typ	Effekt
+Vanlig asteroid	Går sönder vid en träff. (-1 liv om den träffar dig)
+Stor asteroid	Delas i två vanliga vid träff. (-2 liv vid kollision)
+Super asteroid	Kräver 5 träffar eller en superlaser. (-4 liv om den träffar dig)
+🔋 Power-ups
+Typ	Effekt
+Sköld	Ger 7 sekunders skydd. Kan inte staplas.
+Superlaser	Skjuter igenom allt – ren förödelse!
+Extra liv	Ger ett hjärta. Max 5 liv totalt.
+⭐ Poängsystem
+Objekt	Poäng
+Vanlig asteroid	10P
+Stor asteroid	15P (+10P för varje asteroid den blir till)
+Super asteroid	20P
+🛠️ Teknisk info
+Utvecklat med: TypeScript + P5.js (Canvas API)
 
-Det är starkt rekommenderat att ni använder debug-verktyget i VSCode för att hitta och lösa problem. Metoden vi primärt har använt tidigare är att skriva `console.log` men vi kan bli mer effektiva!
+Installation:
 
-Debuggern låter er stanna programmet och stega rad för rad samtidigt som ni kan titta på vad variablerna innehåller. Det är speciellt användbart när ni arbetar med funktioner som anropas 60 gånger per sekund - console overload otherwise... 🤯
-
-#### Starta Debuggern
-
-För att starta debuggern tycker du på `F5` eller via play-knappen i "ActionBaren", se dock till att du har startat projektet innan (`npm run dev`). Ett nytt fönster kommer att öppnas som behöver användas för att få koden att stanna vid utsatta debugg-punkter.
-
-### Potentiella problem
-
-Versionen av p5.js är 1.5.0 medan senaste version av p5 typerna endast är uppdaterad till 1.4.3. Detta skulle kunna orsaka problem och det kan vara så att ni hittar något i p5's dokumentation som inte finns tillgängligt i detta projektet - dock osannolikt.
-
-Typings för de globala variablerna relaterat till p5.sound fungerar tyvärr inte - exempel finns för hur ni kan kringgå detta. Se [loadSound funktionen](global.d.ts) för hur det kan göras.
-
-Eftersom det här projektet är konfigurerat till att fungera utan `import/export` så det ibland vara så att typescript kompilatorn inte hittar en klass. För att lösa det kan du lägga till en referens kommentar som berättar för typescript vart klassen är deklarerad.
-
-Lägg till följande `/// <reference path="to-file-with-class" />` längst upp i filen som genererade felet och skriv korrekt sökväg.
-
-## TODO
-
-Lägg till ytterligare information som är specifikt för ert projekt!
-
-**LYCKA TILL!**
+bash
+Kopiera
+Redigera
+git clone https://github.com/kaspervik/Dinostroids.git
+Öppna index.html i din webbläsare för att börja spela.
