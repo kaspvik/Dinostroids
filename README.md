@@ -1,6 +1,4 @@
 🦖 Dinostroids
-👾 Spela nu!
-Testa dina reflexer i detta fartfyllda rymdäventyr.
 
 🚀 Vad är Dinostroids?
 Dinostroids är ett intensivt arkadspel där du axlar rollen som en laserförsedd dinosaurie på Mars. Ditt uppdrag? Skydda planeten från en storm av asteroider!
