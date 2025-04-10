@@ -68,4 +68,4 @@ Det sägs att dinosaurierna förutsåg undergången långt innan människan ens 
 ### 🔧 Installation
 
 ```bash
-git clone https://github.com/ragnargulin/Dinostroids.git
+git clone https://github.com/kaspervik/Dinostroids.git
